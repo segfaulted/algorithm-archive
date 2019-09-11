@@ -8,6 +8,7 @@ mkdocs = "*"
 mkdocs-gitbook = "*"
 extenions = {editable = true, path = "."}
 pygments = "*"
+pymdown-extensions = "*"
 
 [dev-packages]
 pylint = "*"

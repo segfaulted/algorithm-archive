@@ -4,6 +4,7 @@ theme:
     custom_dir: "theme_overrides/"
 extra_javascript:
     - "site.js"
+    - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
 extra_css:
     - "site.css"
     - "pygments.css"
@@ -12,6 +13,7 @@ markdown_extensions:
     - "fenced_code"
     - "codehilite":
           linenums: true
+    - "pymdownx.arithmatex"
 plugins:
     - "codeimport"
 docs_dir: "contents/"
